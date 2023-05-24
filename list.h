@@ -13,7 +13,8 @@ typedef struct node {
 Node *newNode(int ); /* physically creates a new node */
 /* N.B. this function is called by other functions because does not take care
  * of inserting the Node in the list, but delegates this operation to other
- * functions, such as *Insert functions */
+ * functions, such as *Insert functions 
+* returns a pointer of Node type */
 
 Node *preInsert(Node *, int ); /* inserts a new item at the top of the list */
 
